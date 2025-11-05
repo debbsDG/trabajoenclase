@@ -135,7 +135,7 @@ void inicializar_partido_simple(Partido* p, int alto, int ancho) {
     inicializar_jugador(&p->B.jug[9], 10, 0, alto / 3 * 1, zona_ataque);
     inicializar_jugador(&p->B.jug[10], 11, 0, alto / 3 * 2, zona_ataque);
 
-    printf("⚽️ Partido inicializado: %s vs %s en campo %d x %d.\n", p->A.nombre, p->B.nombre, p->alto, p->ancho);
+    printf("Partido inicializado: %s vs %s en campo %d x %d.\n", p->A.nombre, p->B.nombre, p->alto, p->ancho);
 }
 
 #endif
